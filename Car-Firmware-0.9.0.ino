@@ -35,7 +35,7 @@ void loop() {
    delay(100); // Delay of 100 microseconds between each phase to prevent overlapping of ultrasonic waves
 
 
- if((cm>450)) // If distance is less than 45cm turn right
+ if((cm>45)) // If distance is less than 45cm turn right
  {
    digitalWrite(leftPos,LOW);                          
    digitalWrite(leftNeg,HIGH);                      
